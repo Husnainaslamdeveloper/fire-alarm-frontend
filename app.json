@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Smart Fire Alarm System",
+    "slug": "smart-fire-alarm-system",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080d1a",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "pk.smartfire.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification", "audio"]
+      }
+    },
+    "android": {
+      "package": "pk.smartfire.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#080d1a"
+      },
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Smart Fire Alarm — Admin Monitoring Console",
+      "backgroundColor": "#080d1a"
+    }
+  }
+}
